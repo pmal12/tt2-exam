@@ -15,11 +15,12 @@
  */
 
 #banner {
-  background: #9c9;
+  background: #D0D0D0;
   padding: 10px;
-  border-bottom: 2px solid;
-  font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font: small-caps 40px/40px "Arial Black", serif;
+  color: black;
   text-align: center;
 
   img {
@@ -37,10 +38,10 @@
 }
 
 #columns {
-  background: #141;
+  background: #aaaaaa;
 
   #main {
-    margin-left: 17em;
+    margin-left: 16em;
     padding: 1em;
     background: white;
   }
@@ -49,10 +50,9 @@
   #side {
     float: left;
     padding: 1em 2em;
-    width: 13em;
-    background: #141;
+    width: 12em;
+    background: #aaaaaa;
 
-/* START_HIGHLIGHT */
     form, div {
       display: inline;
     }  
@@ -62,17 +62,16 @@
     }
 
     #cart {
-      font-size: smaller;
-      color:     white;
+      font-size: 13px;
+      color:     black;
 
       table {
-        border-top:    1px dotted #595;
-        border-bottom: 1px dotted #595;
+        border-top:    1px solid black;
+        border-bottom: 1px solid black;
         margin-bottom: 10px;
       }
     }
 
-/* END_HIGHLIGHT */
     ul {
       padding: 0;
 
@@ -95,7 +94,7 @@
     background: #efe;
     legend {
       color: #dfd;
-      background: #141;
+      background: black;
       font-family: sans-serif;
       padding: 0.2em 1em;
     }
