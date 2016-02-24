@@ -41,7 +41,7 @@
   background: #aaaaaa;
 
   #main {
-    margin-left: 16em;
+    margin-left: 17em;
     padding: 1em;
     background: white;
   }
@@ -50,7 +50,7 @@
   #side {
     float: left;
     padding: 1em 2em;
-    width: 12em;
+    width: 13em;
     background: #aaaaaa;
 
     form, div {
@@ -79,8 +79,9 @@
         list-style: none;
 
         a {
-          color: #bfb;
-          font-size: small;
+          color: black;
+          font-size: 14px;
+          font-weight: bold;
         }
       }
     }
@@ -91,9 +92,9 @@
 //#START:form
 .depot_form {
   fieldset {
-    background: #efe;
+    background: white;
     legend {
-      color: #dfd;
+      color: white;
       background: black;
       font-family: sans-serif;
       padding: 0.2em 1em;
